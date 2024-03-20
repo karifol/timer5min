@@ -2,6 +2,7 @@
   "expo": {
     "name": "timer5min",
     "slug": "timer5min",
+    "scheme": "timer5min",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
