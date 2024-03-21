@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "timer5min",
+    "name": "ランダム時計",
     "slug": "timer5min",
     "scheme": "timer5min",
     "version": "1.0.0",
@@ -16,7 +16,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "jp.hogehoge.timer5min",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,6 +31,14 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5fc96ce1-134a-4885-9993-c1d3d3eb79c8"
+      }
+    }
   }
 }
