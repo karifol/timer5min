@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native'
 const TextCard = (): JSX.Element => {
   return (
     <View style={styles.card}>
-      <Text style={styles.cardText}>1~10分前の時刻が表示されます</Text>
+      <Text style={styles.cardText}>1~10分後の時刻が表示されます</Text>
     </View>
   )
 }

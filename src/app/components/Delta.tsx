@@ -15,7 +15,7 @@ const Delta = (props: Props): JSX.Element => {
 
   return (
     <View style={styles.card}>
-      <Button title="何分前か確認する" onPress={() => { handlePress() }} />
+      <Button title="何分後か確認する" onPress={() => { handlePress() }} />
       {display && <Text>{delta}分前</Text>}
     </View>
   )
